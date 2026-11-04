@@ -1,0 +1,112 @@
+[
+  {
+    "id": "afsin-koy-yumurtalari",
+    "src": "/images/real/afsin-koy-yumurtalari.webp",
+    "thumbnail": "/images/real/afsin-koy-yumurtalari-small.webp",
+    "full": "/images/real/afsin-koy-yumurtalari-full.webp",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Çimlerin üzerinde yumurta kapları",
+    "caption": "Çiftliğimizden yumurtalar"
+  },
+  {
+    "id": "afsin-tarlada-tavuklar",
+    "src": "/images/real/afsin-tarlada-tavuklar.webp",
+    "thumbnail": "/images/real/afsin-tarlada-tavuklar-small.webp",
+    "full": "/images/real/afsin-tarlada-tavuklar-full.webp",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Tarla kenarında dolaşan farklı renklerde tavuklar",
+    "caption": "Tarla kenarında tavuklarımız"
+  },
+  {
+    "id": "bakrac-kumes-tavuklari",
+    "src": "/images/real/bakrac-kumes-tavuklari.webp",
+    "thumbnail": "/images/real/bakrac-kumes-tavuklari-small.webp",
+    "full": "/images/real/bakrac-kumes-tavuklari-full.webp",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Kümeste mavi kasaların yanında bulunan tavuklar",
+    "caption": "Kümesten bir kare"
+  },
+  {
+    "id": "bakrac-yumurta-kaplari",
+    "src": "/images/real/bakrac-yumurta-kaplari.webp",
+    "thumbnail": "/images/real/bakrac-yumurta-kaplari-small.webp",
+    "full": "/images/real/bakrac-yumurta-kaplari-full.webp",
+    "width": 1200,
+    "height": 1600,
+    "alt": "İki kap içinde farklı kabuk renklerine sahip yumurtalar",
+    "caption": "Yumurtalarımıza yakından bakın"
+  },
+  {
+    "id": "aristil-ciftlik-bahcesi",
+    "src": "/images/real/aristil-ciftlik-bahcesi.webp",
+    "thumbnail": "/images/real/aristil-ciftlik-bahcesi-small.webp",
+    "full": "/images/real/aristil-ciftlik-bahcesi-full.webp",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Arıstıl / Bakraç’ta çiçeklerin yanından görülen bahçe ve tavuklar",
+    "caption": "Bahçemizden bir görünüm"
+  },
+  {
+    "id": "aile-ciftligi-domatesler",
+    "src": "/images/real/aile-ciftligi-domatesler.webp",
+    "thumbnail": "/images/real/aile-ciftligi-domatesler-small.webp",
+    "full": "/images/real/aile-ciftligi-domatesler-full.webp",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Bir sepet içindeki kırmızı ve yeşil tonlarda domatesler",
+    "caption": "Bir sepet domates"
+  },
+  {
+    "id": "afsin-yumurta-sepetleri",
+    "src": "/images/real/afsin-yumurta-sepetleri.webp",
+    "thumbnail": "/images/real/afsin-yumurta-sepetleri-small.webp",
+    "full": "/images/real/afsin-yumurta-sepetleri-full.webp",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Beş kap içinde bir araya getirilmiş çiftlik yumurtaları",
+    "caption": "Çiftlikten yumurta kareleri"
+  },
+  {
+    "id": "bakrac-bahce-yolu",
+    "src": "/images/real/bakrac-bahce-yolu.webp",
+    "thumbnail": "/images/real/bakrac-bahce-yolu-small.webp",
+    "full": "/images/real/bakrac-bahce-yolu-full.webp",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Çiçekli yol kenarından görülen çiftlik bahçesi",
+    "caption": "Köyde bir gün"
+  },
+  {
+    "id": "afsin-tarla-kenari",
+    "src": "/images/real/afsin-tarla-kenari.webp",
+    "thumbnail": "/images/real/afsin-tarla-kenari-small.webp",
+    "full": "/images/real/afsin-tarla-kenari-full.webp",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Bulutlu gökyüzü altında tarla kenarındaki tavuklar",
+    "caption": "Tavuklarımızın bulunduğu alan"
+  },
+  {
+    "id": "aristil-cicekli-bahce",
+    "src": "/images/real/aristil-cicekli-bahce.webp",
+    "thumbnail": "/images/real/aristil-cicekli-bahce-small.webp",
+    "full": "/images/real/aristil-cicekli-bahce-full.webp",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Sarı çiçekler ve çakıllı yolun arkasında görülen bahçe",
+    "caption": "Arıstıl / Bakraç’tan bir kare"
+  },
+  {
+    "id": "afsin-acik-alanda-tavuklar",
+    "src": "/images/real/afsin-acik-alanda-tavuklar.webp",
+    "thumbnail": "/images/real/afsin-acik-alanda-tavuklar-small.webp",
+    "full": "/images/real/afsin-acik-alanda-tavuklar-full.webp",
+    "width": 1086,
+    "height": 1448,
+    "alt": "Dağ manzarası önündeki açık alanda tavuklar",
+    "caption": "Açık alandan bir görünüm"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "mode": "built-in image_gen",
+  "hero": "Wide editorial photograph of rustic wicker egg basket, brown hens and Anatolian autumn farmland in golden light. Darker left space for heading. No text.",
+  "assets": [
+    [
+      "pantry",
+      "Use case: photorealistic-natural. Wide editorial photograph for Turkish village farm website: homemade thick white yogurt in rustic ivory ceramic bowl, two glass jars of rich red tomato and pepper paste, ripe tomatoes and peppers on rustic dark wooden table, neutral linen, warm autumn sunlight from right, softly blurred farmhouse kitchen, earthy olive cream terracotta palette. Products grouped center and right leaving darker negative space left. No text or people. Realistic premium food photography, landscape."
+    ],
+    [
+      "eggs",
+      "Use case: photorealistic-natural. Beautiful close editorial product photo of naturally varied brown and cream eggs nestled in a small wicker basket on cream linen and pale aged wooden table. Soft warm daylight, rustic Turkish village farm aesthetic, simple few stray straw pieces, olive background blurred, honest natural textures, no labels or text, square composition."
+    ],
+    [
+      "hens",
+      "Use case: photorealistic-natural. Editorial photograph of three healthy brown hens foraging on green grass in a modest Anatolian village orchard, weathered wooden coop in background, soft golden light, intimate eye-level camera, natural realistic feathers and anatomy, premium rural magazine style, olive green warm cream palette, no text no people, square composition."
+    ],
+    [
+      "yogurt",
+      "Use case: photorealistic-natural. Close editorial food photo of thick white homemade yogurt in a rustic cream ceramic bowl, spoon resting beside bowl, beige linen on warm aged wood table, soft window light, subtle farmhouse kitchen blurred behind, appetizing real natural texture, no labels no text, square composition."
+    ],
+    [
+      "paste",
+      "Use case: photorealistic-natural. Close editorial food photo of one open small glass jar of deep red homemade tomato and pepper paste, ripe red pepper and tomato beside it, aged wood table beige linen, soft warm window daylight, rustic Turkish pantry mood, real texture, no labels no text, square composition."
+    ],
+    [
+      "logo",
+      "Use case: logo-brand. Design a refined simple flat two-color farm brand emblem, a friendly stylized hen silhouetted within a circular rising sun, a single small four-point star above the hen, two wheat sprigs framing lower sides. Deep olive green and muted harvest gold. Clean elegant bold vector-like forms readable at 48px. No text, no letters, no gradients, no mockup. Transparent background square."
+    ]
+  ],
+  "logoRevision": {
+    "mode": "built-in image_gen",
+    "prompt": "Use case: logo-brand. Create a finished professional horizontal brand logo lockup for a warm Turkish family farm, transparent background. Exact text: \"Yıldız\" as the large main brand word in refined bold elegant dark olive green serif lettering, with exact subtitle \"ORGANİK ÜRÜNLER\" below it in dark olive small spaced uppercase letters, clearly readable and spelled with correct Turkish letters. On the left a simplified tasteful emblem: a dark olive hen in a muted golden sun circle, a small star above and two minimal wheat sprigs below. Overall horizontal aspect ratio about 3:1, emblem roughly one third of width, typography two thirds. Warm premium countryside brand, restrained organic curves, crisp flat vector-like design, no textures no gradients no shadows no mockup, no extra decorative text, no background color. Logo tightly framed with modest transparent padding. Brand spelling must be exactly Yıldız and ORGANİK ÜRÜNLER. Optimize subtitle weight for readability on website headers at 220px logo width."
+  },
+  "signatureLogo": {
+    "mode": "built-in image_gen",
+    "prompt": "Use case: logo-brand. Create a sophisticated signature-style horizontal logo for a Turkish family farm brand. Exact main text \"Yıldız\", with correct Turkish dotless ı in both positions. Main lettering MUST be expressive custom handwritten signature calligraphy, flowing connected letterforms, elegant natural pen strokes, long graceful sweeping capital Y entry stroke and an understated swash under the word, warm authentic artisan identity, NOT serif typesetting, NOT block letters. It must remain clearly legible. Exact subtitle \"ORGANİK ÜRÜNLER\" in clean bold small widely spaced uppercase sans-serif underneath. A small restrained farm emblem at left: simple olive hen silhouette in a muted harvest-gold sun, a tiny star, minimal wheat sprig; emblem secondary to large signature. Main word in deep olive green, one subtle golden accent on swash. Flat crisp vector-like design, transparent background, no texture, no shadows, no mockup. Horizontal aspect ratio 3:1. Balanced whitespace and good readability when displayed at 240px wide, subtitle sufficiently bold. The signature word is the hero of this logo."
+  }
+}
