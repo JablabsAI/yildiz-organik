@@ -9,6 +9,14 @@ npm run dev
 
 Üretim kontrolü: npm run build; npm start.
 
+## Alan adı ve Vercel
+
+Satın alınan alan adı: https://yildizorganikurunler.com.tr
+
+Vercel projesinde Environment Variables bölümüne, Production ortamı için `NEXT_PUBLIC_SITE_URL=https://yildizorganikurunler.com.tr` ekleyin ve yeniden yayınlayın. Bu değer canonical adresleri, site haritasını ve robots ayarını üretir. Değeri yalnızca Production ortamına ekleyin; yerel geliştirme ve önizlemeler mevcut noindex davranışını korusun. www adresini Vercel üzerinde ana alan adına yönlendirin. DNS değişikliği tek başına bu ortam değişkenini ayarlamaz.
+
+Yayın sonrası HTTPS, /robots.txt, /sitemap.xml ve ana sayfanın canonical / robots meta etiketleri doğrulanmalıdır. GSC, GA4 ve Meta Pixel henüz kurulmadı.
+
 ## Yayına hazırlık
 
 .env.local içinde NEXT_PUBLIC_SITE_URL değerini gerçek HTTPS alan adına ayarlayın. Alan adı yokken robots noindex ve sitemap boştur. Alan adıyla yeniden build alın. Canonical, reklam/ölçüm ve gerçek işletme bilgilerini yayında doğrulayın.
