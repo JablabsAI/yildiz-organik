@@ -13,13 +13,13 @@ npm run dev
 
 Satın alınan alan adı: https://yildizorganikurunler.com.tr
 
-Vercel projesinde Environment Variables bölümüne, Production ortamı için `NEXT_PUBLIC_SITE_URL=https://yildizorganikurunler.com.tr` ekleyin ve yeniden yayınlayın. Bu değer canonical adresleri, site haritasını ve robots ayarını üretir. Değeri yalnızca Production ortamına ekleyin; yerel geliştirme ve önizlemeler mevcut noindex davranışını korusun. www adresini Vercel üzerinde ana alan adına yönlendirin. DNS değişikliği tek başına bu ortam değişkenini ayarlamaz.
+Vercel Production yayınlarında varsayılan adres https://yildizorganikurunler.com.tr olarak kullanılır. NEXT_PUBLIC_SITE_URL boş bırakılsa bile canlı yayında canonical adresleri, dolu site haritası ve index/follow üretilir; robots.txt taramaya izin verir. İsteğe bağlı olarak Production ortamına `NEXT_PUBLIC_SITE_URL=https://yildizorganikurunler.com.tr` eklenebilir. Vercel Preview yayınları, bu değişken tanımlı olsa bile noindex olarak kalır. www adresini Vercel üzerinde ana alan adına yönlendirin.
 
-Yayın sonrası HTTPS, /robots.txt, /sitemap.xml ve ana sayfanın canonical / robots meta etiketleri doğrulanmalıdır. GSC, GA4 ve Meta Pixel henüz kurulmadı.
+Yayın sonrası HTTPS, /robots.txt, /sitemap.xml ve ana sayfanın canonical / robots meta etiketleri doğrulanmalıdır. GSC HTML doğrulama etiketi eklendi. GA4 ve Meta Pixel henüz kurulmadı.
 
 ## Yayına hazırlık
 
-.env.local içinde NEXT_PUBLIC_SITE_URL değerini gerçek HTTPS alan adına ayarlayın. Alan adı yokken robots noindex ve sitemap boştur. Alan adıyla yeniden build alın. Canonical, reklam/ölçüm ve gerçek işletme bilgilerini yayında doğrulayın.
+Vercel Production ortamında alan adı otomatik belirlenir; özel bir ortam değişkenine ihtiyaç yoktur. Yerel geliştirmede adres tanımlı değilse noindex ve boş sitemap üretilir. Önizlemeler de taramaya kapalıdır. Vercel dışında yayın için NEXT_PUBLIC_SITE_URL değerini gerçek HTTPS alan adına ayarlayın. Canonical, reklam/ölçüm ve gerçek işletme bilgilerini yayında doğrulayın.
 
 Adres kullanıcı tarafından Arıstıl / Bakraç, Afşin / Kahramanmaraş olarak netleştirildi. Öncelikli teslim şekli çiftlikten teslim almadır; uygunluk ve saat önceden görüşülür. Kesin harita noktası verilmediği için konum WhatsApp üzerinden istenir. Organik sertifikası beyan edilmemiştir. İndirim oranı ve kampanya tarihleri uydurulmamıştır. Tavuk satışı genel ifadeyle anlatılır; canlı/hazırlanmış ayrımı yapılmaz.
 

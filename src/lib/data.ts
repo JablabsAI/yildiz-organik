@@ -1,7 +1,11 @@
 import newPosts from './new-posts.json';
 export const phone = '+905323506589';
 export const whatsapp = (text='Merhaba, Yıldız Organik Ürünler hakkında bilgi almak istiyorum.') => 'https://wa.me/905323506589?text='+encodeURIComponent(text);
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/,'');
+// Production always has the real domain; Vercel previews stay outside search results.
+const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim().replace(/\/$/, '');
+export const siteUrl = process.env.VERCEL_ENV === 'preview'
+  ? undefined
+  : configuredSiteUrl || (process.env.VERCEL_ENV === 'production' ? 'https://yildizorganikurunler.com.tr' : undefined);
 const originalProducts = [
 {slug:'koy-yumurtasi',name:'Gezen tavuk yumurtası',tag:'GEZEN TAVUKLARIMIZDAN',image:'/images/real/afsin-koy-yumurtalari.webp',desc:'Arıstıl / Bakraç’taki gezen tavuklarımızın yumurtaları. Adet, güncel fiyat ve çiftlikten teslim alma için bize ulaşın.',detail:'Afşin’deki aile çiftliğimizde gezen tavuklarımızın yumurtalarını sofranızla buluşturuyoruz. Yumurta talebinizi adet belirterek iletin. Mevcut miktarı, fiyatı ve çiftlikten teslim alma saatini sizinle doğrudan paylaşalım.'},
 {slug:'tavuk',name:'Tavuk satışı',tag:'UYGUNLUĞUNU SORUN',image:'/images/real/afsin-tarlada-tavuklar.webp',desc:'Afşin’de tavuk satışı için bize ulaşın. Adet, fiyat ve çiftlikten teslim alma bilgisini birlikte konuşalım.',detail:'Tavuk satın almak için doğrudan Atalay Yıldız ile görüşün. İstediğiniz adedi ve düşündüğünüz tarihi yazın; güncel uygunluğu, fiyatı ve Arıstıl / Bakraç’taki çiftliğimizden teslim alma saatini birlikte netleştirelim.'},
